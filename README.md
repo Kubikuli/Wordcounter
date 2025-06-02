@@ -1,5 +1,12 @@
-# VUT-IJC_proj2
+# Wordcounter
+VUT FIT 2023/24 - IJC proj2  
 
-Body: 12.5/15
+Wordcounter implemented using hashtable in C.  
+Also includes another program that prints out last N lines of given file.  
 
-Comment: "Preklad z varovanim (-1b). Nefunguje -n u tail pri subore ako parametri - chybovy kod (-0.5b). Valgrind hlasi neuvolnovani pameti pri tail (-0.5b). Wordcount vracia spatny chybovy kod pri stdin (-0.5b)."
+## Usage:
+`./tail {file_name} {-n "num"}`  
+`./wordcount`  
+`./wordcount-dynamic`  
+
+Points: 12.5/15
